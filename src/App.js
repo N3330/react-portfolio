@@ -1,8 +1,11 @@
-import Portfolio from "./Portfolio";
+import React from 'react';
+import Welcome from "./components/Welcome";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-  <Portfolio />  
+  <Welcome />  
   )
 }
 
