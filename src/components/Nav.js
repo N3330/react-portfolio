@@ -4,10 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 
 function NavBar({ setPage }) {
   return (
-    <Nav variant="tabs" defaultActiveKey="#home">
-      <Nav.Item>
+    <Nav variant="tabs" defaultActiveKey="#about">
+      {/* <Nav.Item>
         <Nav.Link href="#home" onClick={() => setPage('home')}>Home</Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
       <Nav.Item>
         <Nav.Link href="#about" onClick={() => setPage('about')}>About</Nav.Link>
       </Nav.Item>

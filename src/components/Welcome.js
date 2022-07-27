@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
-import Home from '../pages/Home';
+// import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
@@ -10,11 +10,11 @@ import Portfolio from '../pages/Portfolio';
 export default function Welcome({ loggedIn, setLoggedIn }) {
   // Lets log our our loggedIn variable to see it change in real time
   console.log('Welcome -> loggedIn', loggedIn);
-  const [page, setPage] = useState('home');
+  const [page, setPage] = useState('about');
 
   let CurrentPage;
 
-  if (page === 'home') CurrentPage = Home;
+  // if (page === 'home') CurrentPage = Home;
   if (page === 'about') CurrentPage = About;
   if (page === 'contact') CurrentPage = Contact;
   if (page === 'resume') CurrentPage = Resume;
