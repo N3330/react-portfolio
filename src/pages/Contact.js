@@ -61,11 +61,11 @@ function Contact() {
         
         </Form.Group>.
         <div className="field">
-          <label className="label" htmlFor="email">Email Address</label>
+          <label className="label" >Email Address</label>
           <input className="input" type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div className="field">
-          <label className="label" htmlFor="message">Message</label>
+          <label className="label">Message</label>
           <textarea className="textarea" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
