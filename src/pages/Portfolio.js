@@ -5,11 +5,12 @@ import ProjectCard from  '../components/ProjectCard';
 function Portfolio() {
   const projects = [
     {
-      id: "project one",
+      id: "1",
+      title: "Food Genie",
       image: screenshot
     },
     {
-      id: "project two",
+      id: "2",
       image: screenshot
     },
     {
